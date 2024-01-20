@@ -1,13 +1,119 @@
 body {
     font-family: roboto,raleway,sans-serif;
+    Color: #434455;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+}
+
+.header-logo {
+    color: var(--IRIS, #4D5AE5);
+}
+
+.header-studio-logo {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.header-contacts-link {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+/*================================*/
+
+.hero-title {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: -0.02em;
+}
+
+.hero-button {
+    color: var(--WHITE, #FFF);
+        font-family: inherit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+}
+
+.address {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.features-header {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+}
+
+.features-text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.header-Our-Team,
+.main-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+}
+
+.card-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+}
+
+.card-content {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.project-title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+}
+
+.project-content {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
 }
 
 
 
-
-
-
-
-
-
-    /*?==============================================/
