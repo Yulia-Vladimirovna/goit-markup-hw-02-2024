@@ -1,18 +1,18 @@
 body {
-    font-family: "Roboto","Raleway","sans-serif";
-    Color: #434455;
-    background: #FFF;
+        font-family: "Roboto","Raleway","sans-serif";
+        Color: #434455;
+        background: #FFF;
 }
 ul {
-    list-style-type: none;
+        list-style-type: none;
 }
 a {
-    text-decoration: none;
+        text-decoration: none;
 }
 
 .header-logo,
 .footer-logo
- {
+{
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;
@@ -22,12 +22,12 @@ a {
 
 .header-logo,
 .footer-logo {
-    color: var(--IRIS, #4D5AE5);
+        color: var(--IRIS, #4D5AE5);
 }
 
 .header-studio-logo,
 .footer-studio-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+        color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .header-contacts-link {
@@ -55,7 +55,7 @@ a {
 }
 
 .hero-button {
-    color: var(--WHITE, #FFF);
+        color: var(--WHITE, #FFF);
         font-family: inherit;
         font-size: 16px;
         font-style: normal;
@@ -88,7 +88,7 @@ a {
 
 .header-Our-Team,
 .main-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+        color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -105,7 +105,7 @@ a {
 }
 
 .card-content {
-    color: var(--SLATE, #434455);
+        color: var(--SLATE, #434455);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -113,17 +113,28 @@ a {
 }
 
 .project-title {
+        color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
 .project-content {
-    color: var(--SLATE, #434455);
+        color: #F4F4FD;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.features {
+        background-color: #2e2f42;
+}
+.footer-logo {
+        font-family: "Raleway",
+                "sans-serif";
+}
+.footer-studio-logo {
+        color: #f4f4fd;
 }
