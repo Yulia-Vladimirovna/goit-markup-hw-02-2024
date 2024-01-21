@@ -13,17 +13,25 @@ a {
 .header-logo,
 .footer-logo
 {
+        color: #4D5AE5;
         font-family: "Raleway", "sans-serif";
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        margin-right: 76px;
+}
+.footer-logo-features {
+        color: #F4F4FD;
 }
 
-.header-logo,
-.footer-logo {
-        color: #4D5AE5;
+.header-logo span {
+        color: #2e2f42;
+}
+
+..footer-logo span {
+        color: #f4f4fd;
 }
 
 .header-studio-logo,
