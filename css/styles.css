@@ -41,6 +41,7 @@ a {
 }
 
 .header-contacts-link {
+        color: #2e2f42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -57,8 +58,8 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-address:hover,
-address:focus {
+.address-link:hover,
+.address-link:focus {
         color: #404bbf;
 }
 
