@@ -15,7 +15,7 @@ a {
 {       
         
         color: #4D5AE5;
-        font-family: "Raleway", "sans-serif";
+        font-family: "Raleway", sans-serif;
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;
@@ -153,7 +153,7 @@ address:focus {
 }
 .footer-logo {
         font-family: "Raleway",
-                "sans-serif";
+                sans-serif;
 }
 .footer-studio-logo {
         color: #f4f4fd;
