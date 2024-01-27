@@ -1,5 +1,5 @@
 body {
-        font-family: "Roboto","Raleway","sans-serif";
+        font-family: "Roboto","sans-serif";
         Color: #434455;
         background: #FFF;
 }
@@ -12,7 +12,8 @@ a {
 
 .header-logo,
 .footer-logo
-{
+{       
+        
         color: #4D5AE5;
         font-family: "Raleway", "sans-serif";
         text-transform: uppercase;
@@ -44,6 +45,10 @@ a {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+        color: #404bbf;
 }
 
 .address-link {
