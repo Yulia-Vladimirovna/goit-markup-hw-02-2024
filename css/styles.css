@@ -111,8 +111,8 @@ address {
 
 
 .features-header {
-        font-family: Roboto;
-        color: #2E2F42);
+        font-family: "Roboto";
+        color: #2e2f42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -127,6 +127,11 @@ address {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+.header-content {
+        background-color: #F4F4FD;
+}
+
 
 .header-Our-Team,
 .main-title {
@@ -152,6 +157,7 @@ address {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        background-color: #FFFFFF;
 }
 
 .project-title {
@@ -175,7 +181,7 @@ address {
         background-color: #2e2f42;
 }
 .footer-logo {
-        font-family: "Raleway",
+        font-family: "Raleway";
                 sans-serif;
 }
 .footer-studio-logo {
