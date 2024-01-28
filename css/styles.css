@@ -107,7 +107,11 @@ address {
         letter-spacing: 0.02em;
 }
 
+
+
+
 .features-header {
+        font-family: Roboto;
         color: #2E2F42);
         font-size: 20px;
         font-weight: 500;
@@ -116,6 +120,7 @@ address {
 }
 
 .features-text {
+        color: var(--SLATE, #434455);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
