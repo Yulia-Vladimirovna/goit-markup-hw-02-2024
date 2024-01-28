@@ -69,6 +69,10 @@ address {
 
 /*================================*/
 
+.hero {
+        background-color: #2e2f42;
+}
+
 .hero-title {
         color: #ffffff;
         text-align: center;
@@ -92,7 +96,7 @@ address {
 
 .hero-button:hover,
 .hero-button:focus {
-        color: #404bbf;
+        background-color: #404bbf;
         cursor: pointer;
 }
 
