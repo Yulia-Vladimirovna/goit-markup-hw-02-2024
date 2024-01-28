@@ -170,7 +170,7 @@ address {
 }
 
 .project-content {
-        color: #F4F4FD;
+        color: var(--SLATE, #434455);
         font-family: "Roboto";
         font-size: 16px;
         font-weight: 400;
@@ -186,4 +186,14 @@ address {
 }
 .footer-studio-logo {
         color: #f4f4fd;
+}
+
+.project-content-list {
+        color: var(--CLOUD, #F4F4FD);
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
 }
