@@ -133,7 +133,7 @@ address {
 }
 
 
-.header-Our-Team,
+.header-our-team,
 .main-title {
         color: #2E2F42);
         text-align: center;
@@ -149,6 +149,7 @@ address {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        background: var(--WHITE, #FFF);
 }
 
 .card-content {
@@ -181,8 +182,7 @@ address {
         background-color: #2e2f42;
 }
 .footer-logo {
-        font-family: "Raleway";
-                sans-serif;
+        font-family: "Raleway",sans-serif;
 }
 .footer-studio-logo {
         color: #f4f4fd;
