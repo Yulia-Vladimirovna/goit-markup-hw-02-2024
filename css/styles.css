@@ -27,12 +27,16 @@ a {
         color: #F4F4FD;
 }
 
-.header-logo span {
+.header-logo, {
         color: #2e2f42;
 }
 
-..footer-logo span {
+..footer-logo, {
         color: #f4f4fd;
+}
+
+.header-logo-span {
+        color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .header-studio-logo,
@@ -184,13 +188,14 @@ address {
         letter-spacing: 0.02em;
 }
 
-.features {
-        background-color: #2e2f42;
+.features-footer {
+        background: var(--NAVY-BLUE, #2E2F42);
 }
+
 .footer-logo {
         font-family: "Raleway",sans-serif;
 }
-.footer-studio-logo {
+.footer-logo-features {
         color: #f4f4fd;
 }
 
